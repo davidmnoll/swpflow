@@ -1,4 +1,4 @@
-'use strict';
+
 
 const fs = require('fs');
 const path = require('path');
@@ -199,7 +199,7 @@ module.exports = function (webpackEnv) {
       "react-dom": "commonjs react-dom",
     },
     output: {
-      library: "ChkFlow",
+      library: "SwpFlow",
       libraryTarget: 'commonjs2',
       // The build folder.
       path: isEnvProduction ? paths.appBuild : undefined,

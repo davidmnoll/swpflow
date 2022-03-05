@@ -20,8 +20,8 @@ interface SwpFlowState extends SwpFlowOptions {
  */
 
 type SwpFlowOptions = {
-    nodeComponent: TreeNodeComponent;
-    containerComponent: ContainerComponent;
+    // nodeComponent: TreeNodeComponent;
+    // containerComponent: ContainerComponent;
     defaultNodes: SwpFlowNodes;
     defaultEnvironment: SwpFlowEnvironment;
     setStateCallback: (state: SwpFlowState)=> void;

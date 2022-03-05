@@ -17,7 +17,7 @@ ReactDOM.render(
 
 
 
-export { default as SwpFlow } from "./chk"
+export { default as SwpFlow } from "./swp"
 export default SwpFlow
 export type {
     SwpFlowSettings,
